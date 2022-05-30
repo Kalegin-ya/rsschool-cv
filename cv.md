@@ -37,7 +37,7 @@ As young in IT as in the photo. :baby: :joy:
   - Agile  
   - Scrum  
   
-  ### Code example  
+### Code Example 
   
 **Description Cata:** Make a simple function called greet that returns the most-famous "hello world!".
 
