@@ -1,5 +1,4 @@
 
-###### rsschool-cv
 <img src="young.jpg" alt="drawing" width="230">  
 
 #     Yaroslav Kalegin  
