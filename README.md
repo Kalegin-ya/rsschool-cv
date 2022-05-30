@@ -20,3 +20,21 @@ As young in IT as in the photo. :baby: :joy:
   **1.** **Resume-GoIT-school:** 
   [web-page](https://kalegin-ya.github.io/Resume-001/) and [sourse code](https://github.com/Kalegin-ya/Resume-001)..........................**[HTML5, CSS3]**  
   **2. CV-rs-school:**  https://github.com/Kalegin-ya/rsschool-cv ..........**[Markdowm, Git, GitHub]**
+
+### Hard skills:  
+  - HTML5  
+  - CSS3  
+  - Figma  
+  - Git, GitHub  
+  - Markdown
+  - Jira  
+  - VS Code, IntelliJ IDEA, Eclipse 
+
+
+### Soft skills:  
+  - GTD  
+  - Teamwork  
+  - Agile  
+  - Scrum  
+  
+  
