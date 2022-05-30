@@ -40,7 +40,7 @@ As young in IT as in the photo. :baby: :joy:
   ### Code example:
 **Description Cata:** Make a simple function called greet that returns the most-famous "hello world!".
 
-```
+```js
 // Write a function "greet" that returns "hello world!"  
 function greet() {  
   return 'hello world!'  
