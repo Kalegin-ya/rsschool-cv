@@ -14,7 +14,7 @@
 **Discord (rs-school):** Ярослав (@Kalegin-ya)
 
 ### About Myself:  
-As young in IT as in the photo. :baby: :joy: 
+As young in IT as in the photo. (:
 
 ### Expirience:  
   **1.** **Resume-GoIT-school:** 
