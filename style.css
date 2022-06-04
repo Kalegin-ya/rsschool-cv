@@ -42,6 +42,10 @@ header {
   margin: 40px 40px 0 40px;
 }
 
+.code-example-img {
+  max-width: 750px;
+}
+
 .projects-section {
   margin: 40px 40px 40px 40px;
 }
