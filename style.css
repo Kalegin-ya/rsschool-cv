@@ -1,0 +1,164 @@
+html {
+  background-color: black;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-main-aside {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  background-color: #fecb00;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.hidden-title {
+  font-size: 0px;
+}
+
+.about-section {
+  margin: 40px 40px 0 40px;
+}
+.education-section {
+  margin: 40px 40px 0 40px;
+}
+
+.languages-section {
+  margin: 40px 40px 0 40px;
+}
+
+.code-example-section {
+  margin: 40px 40px 0 40px;
+}
+
+.projects-section {
+  margin: 40px 40px 40px 40px;
+}
+
+aside {
+  width: 370px;
+  min-width: 370px;
+  background-color: #202026;
+  color: #fecb00;
+  opacity: 95%;
+  font-size: 20px;
+  line-height: 145%;
+}
+
+.contacts-aside {
+  margin: 40px 20px 0 40px;
+}
+
+.aside-title {
+  color: white;
+  font-variant: small-caps;
+  opacity: 85%;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-style-contacts {
+  padding: 0.5em;
+  margin: 0;
+  list-style-type: none;
+}
+
+.icon-aside {
+  text-align: center;
+  margin-right: 35px;
+}
+
+.none-decoration-aside {
+  text-decoration: none;
+  opacity: 50%;
+  color: #fecb00;
+}
+
+.ul-style-aside {
+  list-style-type: square;
+  padding: 0.5em;
+  margin: 0px 0px 0 20px;
+}
+
+.contact-icons {
+  max-width: 40px;
+  vertical-align: middle;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+main {
+  background-color: bisque;
+}
+
+footer {
+  display: flex;
+  color: aqua;
+}
+
+.left-side-footer {
+  background-color: #fecb00;
+  width: 370px;
+  text-align: center;
+}
+
+.rss-label {
+  width: 250px;
+  margin: 10px 0;
+}
+
+.right-side-footer {
+  background-color: #202026;
+  width: 830px;
+  color: #fecb00;
+  display: flex;
+  padding-top: 10px;
+}
+.data-create {
+  font-size: 24px;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.github-label {
+  max-width: 80px;
+  padding-top: 5px;
+  padding-left: 500px;
+}
+
+.rss-promote {
+  writing-mode: vertical-rl;
+  color: #fecb00;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 0.8em;
+  text-align: center;
+}
+.click-word {
+  writing-mode: vertical-rl;
+  color: #fecb00;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+.direction-img {
+  width: 80px;
+}

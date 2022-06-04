@@ -1,1 +1,1 @@
-https://kalegin-ya.github.io/rsschool-cv/cv
+https://kalegin-ya.github.io/rsschool-cv

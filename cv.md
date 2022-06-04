@@ -14,11 +14,11 @@
 **Discord (rs-school):** Ярослав (@Kalegin-ya)
 
 ### About Myself:  
-As young in IT as in the photo. :baby: :joy: 
+As young in IT as in the photo. (:
 
 ### Expirience:  
   **1.** **Resume-GoIT-school:** 
-  [web-page](https://kalegin-ya.github.io/Resume-001/) and [sourse code](https://github.com/Kalegin-ya/Resume-001)..........................**[HTML5, CSS3]**  
+  [web-page](https://kalegin-ya.github.io/Resume-001/) and [sourse code](https://github.com/Kalegin-ya/Resume-001)........................**[HTML5, CSS3]**  
   **2. CV-rs-school:**  https://github.com/Kalegin-ya/rsschool-cv ..........**[Markdowm, Git, GitHub]**
 
 ### Hard skills:  
@@ -49,7 +49,7 @@ function greet() {
   greet();
 ```
 ### Education
-Seven day introductory course by GoIT...............(HTML/CSS)  
+Seven day introductory course by GoIT..............(HTML/CSS)  
 Basic course "Java syntax" by Mate Acadmy..... (Java, IntelliJ IDEA, Eclipse) 
 
 ### Languages
