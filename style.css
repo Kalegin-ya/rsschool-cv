@@ -1,0 +1,82 @@
+html {
+  background-color: black;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-main-aside {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+}
+
+aside {
+  width: 370px;
+  min-width: 370px;
+  background-color: #202026;
+  color: #fecb00;
+  opacity: 95%;
+  font-size: 20px;
+  line-height: 145%;
+}
+
+.contacts-aside {
+  margin: 40px 20px 0 40px;
+}
+
+.aside-title {
+  color: white;
+  font-variant: small-caps;
+  opacity: 85%;
+  padding: 0;
+  margin: 0;
+}
+
+.ul-style-contacts {
+  padding: 0.5em;
+  margin: 0;
+  list-style-type: none;
+}
+
+.none-decoration-aside {
+  text-decoration: none;
+  opacity: 50%;
+  color: #fecb00;
+}
+
+.ul-style-aside {
+  list-style-type: square;
+  padding: 0.5em;
+  margin: 0px 0px 0 20px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+main {
+  background-color: bisque;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  color: aqua;
+  background-color: #fecb00;
+}
+
+.rss-label {
+  width: 250px;
+}
