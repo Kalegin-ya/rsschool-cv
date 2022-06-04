@@ -131,6 +131,7 @@ footer {
   width: 830px;
   color: #fecb00;
   display: flex;
+  justify-content: space-between;
   padding-top: 10px;
 }
 .data-create {
@@ -142,19 +143,12 @@ footer {
 .github-label {
   max-width: 80px;
   padding-top: 5px;
-  margin-left: 500px;
-  position: relative;
 }
 
-.github-label::after {
-  content: url("img/arrow.png");
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.test {
+.arrow-icon {
   max-width: 70px;
+  padding-bottom: 15px;
+  opacity: 70%;
 }
 
 .rss-promote {
@@ -165,14 +159,10 @@ footer {
   line-height: 0.8em;
   text-align: center;
 }
-.click-word {
-  writing-mode: vertical-rl;
-  color: #fecb00;
-  font-size: 30px;
-  text-decoration: none;
+
+.click-promote {
+  font-size: 24px;
   font-weight: 700;
-  line-height: 0.8em;
-  text-align: center;
 }
 
 .direction-img {
