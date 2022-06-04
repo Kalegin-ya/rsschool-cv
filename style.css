@@ -62,6 +62,10 @@ aside {
   margin: 0px 0px 0 20px;
 }
 
+.contact-icons {
+  max-width: 32px;
+}
+
 .my-photo {
   width: 370px;
 }
