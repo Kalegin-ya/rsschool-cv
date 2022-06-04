@@ -142,7 +142,19 @@ footer {
 .github-label {
   max-width: 80px;
   padding-top: 5px;
-  padding-left: 500px;
+  margin-left: 500px;
+  position: relative;
+}
+
+.github-label::after {
+  content: url("img/arrow.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.test {
+  max-width: 70px;
 }
 
 .rss-promote {
