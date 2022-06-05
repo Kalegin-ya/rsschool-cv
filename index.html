@@ -34,8 +34,9 @@
     <main class="main-align">
       <h1 class="hidden-title">Yaroslav Kalegin - Junior Frontend Developer</h1>
       <section class="about-section">
-        <h3>About me</h3>
-        <p>
+        <h3 class="main-title">About me</h3>
+        <div class="main-line"></div>
+        <p class="main-p-left-padding">
           I have tried many professions in my life until I found this one. After all, what could be better than a job
           in
           which you can never say that you know everything. A job where there is always something to learn is great.
@@ -46,30 +47,73 @@
       </section>
 
       <section class="education-section">
-        <h3>Education</h3>
-        <p>National Aerospace University "Kharkiv Aviation Institute"</p>
-        <p>Seven day introductory course by GoIT..............(HTML/CSS)</p>
-        <p>Basic course "Java syntax" by Mate Acadmy..... (Java, IntelliJ IDEA, Eclipse)</p>
+        <h3 class="main-title">Education</h3>
+        <div class="main-line"></div>
+
+
+        <p class="main-p-left-padding-bold">
+          National Aerospace University "Kharkiv Aviation Institute"
+        </p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(Metrology, certification and standardization)</p>
+        </div>
+
+        <p class="main-p-left-padding-bold">Seven-day introductory course by GoIT</p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(HTML/CSS)</p>
+        </div>
+
+        <p class="main-p-left-padding-bold">Basic course "Java syntax" by Mate Acadmy</p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(Java, IntelliJ IDEA, Eclipse)</p>
+        </div>
       </section>
 
       <section class="languages-section">
-        <h3>Languages</h3>
+        <h3 class="main-title">Languages</h3>
+        <div class="main-line"></div>
         <ul>
-          <li>English - Pre-Intermediate</li>
-          <li>Ukrainian - Intermediate</li>
-          <li>Russian - Native</li>
+          <li><span class="lang-name">Ukrainian</span> - Intermediate</li>
+          <li><span class="lang-name">Russian</span> - Native</li>
+          <li><span class="lang-name">English</span> - Pre-Intermediate (B1 in proccess...)</li>
         </ul>
       </section>
 
       <section class="code-example-section">
-        <h3>Code Example</h3>
-        <img src="img/code-example.jpg" alt="js-code-example" class="code-example-img">
+        <h3 class="main-title">Code Example</h3>
+        <div class="main-line"></div>
+        <code>
+        <pre>
+
+  const isLowerCase = (char) =>
+    char.toLowerCase() === char;
+  const swapCase = (char) =>
+  isLowerCase(char) ? char.toUpperCase() :
+    char.toLowerCase();
+  String.prototype.toAlternatingCase = function() {
+    return [...this].map(swapCase).join('');
+      };
+        </pre>     
+        </code>
       </section>
 
       <section class="projects-section">
-        <h3>My Projects</h3>
-        <p>Resume-GoIT-school: web-page and sourse code........................[HTML5, CSS3]</p>
-        <p>CV-rs-school: https://github.com/Kalegin-ya/rsschool-cv ..........[Markdowm, Git, GitHub]</p>
+        <h3 class="main-title">Projects</h3>
+        <div class="main-line"></div>
+
+        <div>
+          <div>
+            <p>Resume-GoIT-school: web-page and sourse code........[HTML5, CSS3]</p>
+          </div>
+
+          <div>
+            <p>
+              CV-rs-school: https://github.com/Kalegin-ya/rsschool-cv/blob/gh-pages/cv.md ......[Markdowm, Git, GitHub]
+            </p>
+          </div>
+
+        </div>
+
       </section>
     </main>
 

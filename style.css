@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -29,29 +29,77 @@ header {
 
 .about-section {
   margin: 40px 40px 0 40px;
+  padding: 0;
+  font-size: 24px;
+  line-height: 150%;
 }
+
+.main-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  justify-content: end;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+
+.main-line {
+  height: 2px;
+  background-color: black;
+}
+
 .education-section {
   margin: 40px 40px 0 40px;
+  font-size: 24px;
+  line-height: 150%;
+  padding-left: 0;
+  text-align: center;
+}
+
+.main-p-left-padding {
+  padding-left: 20px;
+}
+
+.main-p-left-padding-bold {
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.compress-space-between {
+  margin-top: -20px;
+}
+
+.education-skill-font {
+  font-size: 22px;
+  opacity: 75%;
 }
 
 .languages-section {
   margin: 40px 40px 0 40px;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.lang-name {
+  font-weight: 700;
 }
 
 .code-example-section {
   margin: 40px 40px 0 40px;
+  font-size: 22px;
 }
 
 .code-example-img {
-  max-width: 750px;
+  max-width: 650px;
 }
 
 .projects-section {
   margin: 40px 40px 40px 40px;
+  font-size: 24px;
 }
 
 aside {
-  width: 370px;
+  width: 37-px;
   min-width: 370px;
   background-color: #202026;
   color: #fecb00;
@@ -100,6 +148,11 @@ aside {
   vertical-align: middle;
   padding-left: 5px;
   padding-right: 5px;
+  transition: 0.3s;
+}
+
+.contact-icons:hover {
+  transform: scale(1.4);
 }
 
 .my-photo {
@@ -107,12 +160,11 @@ aside {
 }
 
 main {
-  background-color: bisque;
+  background-color: whitesmoke;
 }
 
 footer {
   display: flex;
-  color: aqua;
 }
 
 .left-side-footer {
@@ -124,11 +176,16 @@ footer {
 .rss-label {
   width: 250px;
   margin: 10px 0;
+  transition: 0.3s;
+}
+
+.rss-label:hover {
+  transform: scale(1.2);
 }
 
 .right-side-footer {
   background-color: #202026;
-  width: 830px;
+  width: 730px;
   color: #fecb00;
   display: flex;
   justify-content: space-between;
@@ -143,6 +200,10 @@ footer {
 .github-label {
   max-width: 80px;
   padding-top: 5px;
+  transition: 0.3s;
+}
+.github-label:hover {
+  transform: scale(1.2);
 }
 
 .arrow-icon {
