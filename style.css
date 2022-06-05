@@ -32,7 +32,7 @@ header {
 .about-section {
   margin: 40px 40px 0 40px;
   padding: 0;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 150%;
 }
 
@@ -52,7 +52,7 @@ header {
 
 .education-section {
   margin: 40px 40px 0 40px;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 150%;
   padding-left: 0;
   text-align: center;
@@ -68,7 +68,7 @@ header {
 }
 
 .compress-space-between {
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 .education-skill-font {
@@ -78,7 +78,7 @@ header {
 
 .languages-section {
   margin: 40px 40px 0 40px;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 150%;
 }
 
@@ -109,21 +109,28 @@ header {
 
 .projects-flex {
   display: flex;
-  margin-top: 25px;
+  margin-top: 35px;
+  justify-content: space-around;
 }
 
 .first-project-box {
   background-color: #fecb00;
+  max-width: 250px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .second-project-box {
-  background-color: #5a512c;
+  background-color: #fecb00;  
+  max-width: 250px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .img-link-project {
   max-width: 250px;
   transition: 1s;
-  border-radius: 25px;
+  box-shadow: 0px 2px 20px 2px #fecb00;  
 }
 
 .img-link-project:hover {
@@ -138,6 +145,11 @@ header {
 
 .tech-project {
   font-weight: bold;
+  font-size: 24px;
+}
+
+.info-about-project {
+  opacity: 80%;
 }
 
 aside {
@@ -148,6 +160,7 @@ aside {
   opacity: 95%;
   font-size: 24px;
   line-height: 145%;
+  position:relative;  
 }
 
 .line-aside {
@@ -157,12 +170,14 @@ aside {
   margin-top: 10px;  
 }
 
-.contacts-aside {
-  margin: 650px 20px 0 30px;
+.contacts-aside { 
+  position: absolute;
+  bottom: 50px;
+  margin-left: 30px;
 }
 
 .hard-skills-aside {
-  margin: 115px 0px 0 60px;
+  margin: 35px 0px 0 60px;
   font-size: 30px;
 }
 
