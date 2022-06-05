@@ -1,5 +1,5 @@
 
-<img src="young.jpg" alt="drawing" width="230">  
+<img src="./img/young.jpg" alt="drawing" width="230">  
 
 #     Yaroslav Kalegin  
 
