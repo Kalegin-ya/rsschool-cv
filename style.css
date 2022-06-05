@@ -5,6 +5,8 @@ html {
 body {
   max-width: 1100px;
   margin: 0 auto;
+  background-color: #202026;
+  box-shadow: 0px 0px 50px 0px #fecb00;
 }
 
 .flex-main-aside {
@@ -16,7 +18,7 @@ header {
   display: flex;
   background-color: black;
   color: white;
-  background-color: #fecb00;
+  background-color: #202026;
 }
 
 .header-nav {
@@ -89,13 +91,44 @@ header {
   font-size: 22px;
 }
 
-.code-example-img {
-  max-width: 650px;
+.example-code-background {
+  background-color: #202026;
+  color: yellow;
+  border-radius: 30px;
+  opacity: 95%;
+}
+
+.code-opacity {
+  opacity: 75%;
 }
 
 .projects-section {
   margin: 40px 40px 40px 40px;
   font-size: 24px;
+}
+
+.projects-flex {
+  display: flex;
+  margin-top: 25px;
+}
+
+.img-link-project {
+  max-width: 250px;
+  transition: 1s;
+  border-radius: 25px;
+}
+
+.img-link-project:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 20px 2px #fecb00;
+}
+
+.description-project {
+  text-align: center;
+}
+
+.tech-project {
+  font-weight: bold;
 }
 
 aside {
@@ -104,12 +137,22 @@ aside {
   background-color: #202026;
   color: #fecb00;
   opacity: 95%;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 145%;
 }
 
 .contacts-aside {
-  margin: 40px 20px 0 40px;
+  margin: 650px 20px 0 30px;
+}
+
+.hard-skills-aside {
+  margin: 115px 20px 0 40px;
+  font-size: 30px;
+}
+
+.soft-skills-aside {
+  margin: 50px 20px 0 40px;
+  font-size: 30px;
 }
 
 .aside-title {
@@ -157,10 +200,15 @@ aside {
 
 .my-photo {
   width: 370px;
+  border-bottom-right-radius: 25px;
 }
 
 main {
   background-color: whitesmoke;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 footer {
@@ -171,6 +219,7 @@ footer {
   background-color: #fecb00;
   width: 370px;
   text-align: center;
+  border-top-right-radius: 25px;
 }
 
 .rss-label {
@@ -194,7 +243,7 @@ footer {
 .data-create {
   font-size: 24px;
   padding-top: 70px;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .github-label {

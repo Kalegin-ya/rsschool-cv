@@ -82,9 +82,10 @@
       <section class="code-example-section">
         <h3 class="main-title">Code Example</h3>
         <div class="main-line"></div>
-        <code>
-        <pre>
 
+        <div class="example-code-background">
+          <code class="code-opacity">
+          <pre>  
   const isLowerCase = (char) =>
     char.toLowerCase() === char;
   const swapCase = (char) =>
@@ -93,31 +94,70 @@
   String.prototype.toAlternatingCase = function() {
     return [...this].map(swapCase).join('');
       };
-        </pre>     
-        </code>
+          </pre>     
+          </code>
+        </div>
       </section>
 
       <section class="projects-section">
         <h3 class="main-title">Projects</h3>
         <div class="main-line"></div>
 
-        <div>
+        <div class="projects-flex">
+
           <div>
-            <p>Resume-GoIT-school: web-page and sourse code........[HTML5, CSS3]</p>
+            <div>
+              <a href="https://kalegin-ya.github.io/Resume-001/" target="_blank">
+                <img src="img/my-project-2.png" alt="1-st project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p>Compiled resume based on video lessons of the IT school of Go IT</p>
+              <p class="tech-project">[HTML5, CSS3]</p>
+            </div>
           </div>
 
           <div>
-            <p>
-              CV-rs-school: https://github.com/Kalegin-ya/rsschool-cv/blob/gh-pages/cv.md ......[Markdowm, Git, GitHub]
-            </p>
+            <div>
+              <a href="https://github.com/Kalegin-ya/rsschool-cv/blob/gh-pages/cv.md" target="_blank">
+                <img src="img/my-project-1.png" alt="2-nd project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p>My resume written with Markdown and GitHub</p>
+              <p class="tech-project">[Markdowm, Git, GitHub]</p>
+            </div>
           </div>
-
         </div>
-
       </section>
     </main>
 
     <aside>
+      <section class="hard-skills-aside">
+        <h3 class="aside-title">Hard Skills</h3>
+        <ul class="ul-style-aside">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Figma</li>
+          <li>Git, GitHub</li>
+          <li>Markdown</li>
+          <li>Jira</li>
+          <li>VS Code</li>
+          <li>Eclipse</li>
+          <li>IntelliJ IDEA</li>
+        </ul>
+      </section>
+
+      <section class="soft-skills-aside">
+        <h3 class="aside-title">Soft Skills</h3>
+        <ul class="ul-style-aside">
+          <li>GTD</li>
+          <li>Teamwork</li>
+          <li>Agile</li>
+          <li>Scrum</li>
+        </ul>
+      </section>
+
       <section class="contacts-aside">
         <h3 class="aside-title">Contacts</h3>
         <ul class="ul-style-contacts">
@@ -155,28 +195,7 @@
         </div>
       </section>
 
-      <section class="contacts-aside">
-        <h3 class="aside-title">Hard Skills</h3>
-        <ul class="ul-style-aside">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Figma</li>
-          <li>Git, GitHub</li>
-          <li>Markdown</li>
-          <li>Jira</li>
-          <li>VS Code, IntelliJ IDEA, Eclipse</li>
-        </ul>
-      </section>
 
-      <section class="contacts-aside">
-        <h3 class="aside-title">Soft Skills</h3>
-        <ul class="ul-style-aside">
-          <li>GTD</li>
-          <li>Teamwork</li>
-          <li>Agile</li>
-          <li>Scrum</li>
-        </ul>
-      </section>
     </aside>
   </div>
 
