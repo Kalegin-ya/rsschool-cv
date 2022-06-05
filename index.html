@@ -34,8 +34,9 @@
     <main class="main-align">
       <h1 class="hidden-title">Yaroslav Kalegin - Junior Frontend Developer</h1>
       <section class="about-section">
-        <h3>About me</h3>
-        <p>
+        <h3 class="main-title">About me</h3>
+        <div class="main-line"></div>
+        <p class="main-p-left-padding">
           I have tried many professions in my life until I found this one. After all, what could be better than a job
           in
           which you can never say that you know everything. A job where there is always something to learn is great.
@@ -46,34 +47,124 @@
       </section>
 
       <section class="education-section">
-        <h3>Education</h3>
-        <p>National Aerospace University "Kharkiv Aviation Institute"</p>
-        <p>Seven day introductory course by GoIT..............(HTML/CSS)</p>
-        <p>Basic course "Java syntax" by Mate Acadmy..... (Java, IntelliJ IDEA, Eclipse)</p>
+        <h3 class="main-title">Education</h3>
+        <div class="main-line"></div>
+
+
+        <p class="main-p-left-padding-bold">
+          National Aerospace University
+        </p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(Metrology, certification and standardization)</p>
+        </div>
+
+        <p class="main-p-left-padding-bold">Seven-day introductory course by GoIT</p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(HTML/CSS)</p>
+        </div>
+
+        <p class="main-p-left-padding-bold">Basic course "Java syntax" by Mate Acadmy</p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(Java, IntelliJ IDEA, Eclipse)</p>
+        </div>
       </section>
 
       <section class="languages-section">
-        <h3>Languages</h3>
+        <h3 class="main-title">Languages</h3>
+        <div class="main-line"></div>
         <ul>
-          <li>English - Pre-Intermediate</li>
-          <li>Ukrainian - Intermediate</li>
-          <li>Russian - Native</li>
+          <li><span class="lang-name">Ukrainian</span> - Intermediate</li>
+          <li><span class="lang-name">Russian</span> - Native</li>
+          <li><span class="lang-name">English</span> - Pre-Intermediate (B1 in proccess...)</li>
         </ul>
       </section>
 
       <section class="code-example-section">
-        <h3>Code Example</h3>
-        <img src="/img/code-example2.jpg" alt="js-code-example">
+        <h3 class="main-title">Code Example</h3>
+        <div class="main-line"></div>
+
+        <div class="example-code-background">
+          <code class="code-opacity">
+          <pre>  
+  const isLowerCase = (char) =>
+    char.toLowerCase() === char;
+  const swapCase = (char) =>
+  isLowerCase(char) ? char.toUpperCase() :
+    char.toLowerCase();
+  String.prototype.toAlternatingCase = function() {
+    return [...this].map(swapCase).join('');
+      };
+          </pre>     
+          </code>
+        </div>
       </section>
 
       <section class="projects-section">
-        <h3>My Projects</h3>
-        <p>Resume-GoIT-school: web-page and sourse code........................[HTML5, CSS3]</p>
-        <p>CV-rs-school: https://github.com/Kalegin-ya/rsschool-cv ..........[Markdowm, Git, GitHub]</p>
+        <h3 class="main-title">Projects</h3>
+        <div class="main-line"></div>
+
+        <div class="projects-flex">
+
+          <div class="first-project-box">
+            <div>
+              <a href="https://kalegin-ya.github.io/Resume-001/" target="_blank">
+                <img src="img/my-project-2.png" alt="1-st project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p class="info-about-project">Compiled resume based on video lessons of the IT school of Go IT.</p>
+              <p class="tech-project">[HTML5, CSS3]</p>
+            </div>
+          </div>
+
+          <div class="second-project-box">
+            <div>
+              <a href="https://github.com/Kalegin-ya/rsschool-cv/blob/gh-pages/cv.md" target="_blank">
+                <img src="img/my-project-1.png" alt="2-nd project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p class="info-about-project">My first resume written with Markdown and GitHub.</p>
+              <p class="tech-project">[Markdowm, GitHub]</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <aside>
+
+      <section class="hard-skills-aside">
+        <h3 class="aside-title">Hard Skills</h3>
+
+        <div class="line-aside"></div>
+
+        <ul class="ul-style-aside">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Figma</li>
+          <li>Git, GitHub</li>
+          <li>Markdown</li>
+          <li>Jira</li>
+          <li>VS Code</li>
+          <li>Eclipse</li>
+          <li>IntelliJ IDEA</li>
+        </ul>
+      </section>
+
+      <section class="soft-skills-aside">
+        <h3 class="aside-title">Soft Skills</h3>
+
+        <div class="line-aside"></div>
+
+        <ul class="ul-style-aside">
+          <li>GTD</li>
+          <li>Teamwork</li>
+          <li>Agile</li>
+          <li>Scrum</li>
+        </ul>
+      </section>
+
       <section class="contacts-aside">
         <h3 class="aside-title">Contacts</h3>
         <ul class="ul-style-contacts">
@@ -111,28 +202,7 @@
         </div>
       </section>
 
-      <section class="contacts-aside">
-        <h3 class="aside-title">Hard Skills</h3>
-        <ul class="ul-style-aside">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Figma</li>
-          <li>Git, GitHub</li>
-          <li>Markdown</li>
-          <li>Jira</li>
-          <li>VS Code, IntelliJ IDEA, Eclipse</li>
-        </ul>
-      </section>
 
-      <section class="contacts-aside">
-        <h3 class="aside-title">Soft Skills</h3>
-        <ul class="ul-style-aside">
-          <li>GTD</li>
-          <li>Teamwork</li>
-          <li>Agile</li>
-          <li>Scrum</li>
-        </ul>
-      </section>
     </aside>
   </div>
 
@@ -141,10 +211,22 @@
       <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs-school-label" class="rss-label"></a>
     </div>
     <div class="right-side-footer">
-      <a href="https://rs.school/js/" class="rss-promote">Join to us!</a>
-      <a href="https://rs.school/js/" class="rss-promote">and</a>
-      <a href="https://rs.school/js/" class="click-word">Click</a>
-      <a href="https://github.com/Kalegin-ya"><img src="img/github.png" alt="GitHub" class="github-label"></a>
+      <div class="rss-promote">
+        <span class="click-promote">Click</span>
+        <br>
+        and
+        <br>
+        Join to us!
+      </div>
+
+      <div>
+        <img src="img/arrow.png" alt="arrow to GitHub" class="arrow-icon">
+        <span>
+          <a href="https://github.com/Kalegin-ya">
+            <img src="img/github.png" alt="GitHub" class="github-label"></a>
+        </span>
+      </div>
+
       <div class="data-create">&#169; Create in 2022</div>
     </div>
   </footer>

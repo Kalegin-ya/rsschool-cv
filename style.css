@@ -3,8 +3,10 @@ html {
 }
 
 body {
-  width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
+  background-color: #202026;
+  box-shadow: 0px 0px 50px 0px #fecb00;
 }
 
 .flex-main-aside {
@@ -16,7 +18,7 @@ header {
   display: flex;
   background-color: black;
   color: white;
-  background-color: #fecb00;
+  background-color: #202026;
 }
 
 .header-nav {
@@ -29,35 +31,159 @@ header {
 
 .about-section {
   margin: 40px 40px 0 40px;
+  padding: 0;
+  font-size: 28px;
+  line-height: 150%;
 }
+
+.main-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  justify-content: end;
+  text-align: end;
+  margin: 0;
+  padding: 0;
+}
+
+.main-line {
+  height: 4px;
+  background-color: black;
+}
+
 .education-section {
   margin: 40px 40px 0 40px;
+  font-size: 30px;
+  line-height: 150%;
+  padding-left: 0;
+  text-align: center;
+}
+
+.main-p-left-padding {
+  padding-left: 20px;
+}
+
+.main-p-left-padding-bold {
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+.compress-space-between {
+  margin-top: -40px;
+}
+
+.education-skill-font {
+  font-size: 22px;
+  opacity: 75%;
 }
 
 .languages-section {
   margin: 40px 40px 0 40px;
+  font-size: 30px;
+  line-height: 150%;
+}
+
+.lang-name {
+  font-weight: 700;
 }
 
 .code-example-section {
   margin: 40px 40px 0 40px;
+  font-size: 22px;
+}
+
+.example-code-background {
+  background-color: #202026;
+  color: yellow;
+  border-radius: 30px;
+  opacity: 95%;
+}
+
+.code-opacity {
+  opacity: 75%;
 }
 
 .projects-section {
   margin: 40px 40px 40px 40px;
+  font-size: 24px;
+}
+
+.projects-flex {
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-around;
+}
+
+.first-project-box {
+  background-color: #fecb00;
+  max-width: 250px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.second-project-box {
+  background-color: #fecb00;  
+  max-width: 250px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.img-link-project {
+  max-width: 250px;
+  transition: 1s;
+  box-shadow: 0px 2px 20px 2px #fecb00;  
+}
+
+.img-link-project:hover {
+  transform: scale(1.2);
+  box-shadow: 2px 2px 20px 2px #202026; 
+  border-s
+}
+
+.description-project {
+  text-align: center;
+}
+
+.tech-project {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.info-about-project {
+  opacity: 80%;
 }
 
 aside {
-  width: 370px;
+  width: 37-px;
   min-width: 370px;
   background-color: #202026;
   color: #fecb00;
   opacity: 95%;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 145%;
+  position:relative;  
 }
 
-.contacts-aside {
-  margin: 40px 20px 0 40px;
+.line-aside {
+  background-color: #fecb00;
+  height: 4px;    
+  opacity: 75%;
+  margin-top: 10px;  
+}
+
+.contacts-aside { 
+  position: absolute;
+  bottom: 50px;
+  margin-left: 30px;
+}
+
+.hard-skills-aside {
+  margin: 35px 0px 0 60px;
+  font-size: 30px;
+}
+
+.soft-skills-aside {
+  margin: 50px 0px 0 60px;
+  font-size: 30px;
 }
 
 .aside-title {
@@ -96,49 +222,74 @@ aside {
   vertical-align: middle;
   padding-left: 5px;
   padding-right: 5px;
+  transition: 0.3s;
+}
+
+.contact-icons:hover {
+  transform: scale(1.4);
 }
 
 .my-photo {
   width: 370px;
+  border-bottom-right-radius: 25px;
 }
 
 main {
-  background-color: bisque;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px; 
 }
 
 footer {
   display: flex;
-  color: aqua;
 }
 
 .left-side-footer {
   background-color: #fecb00;
   width: 370px;
   text-align: center;
+  border-top-right-radius: 25px;
 }
 
 .rss-label {
   width: 250px;
   margin: 10px 0;
+  transition: 0.3s;
+}
+
+.rss-label:hover {
+  transform: scale(1.2);
 }
 
 .right-side-footer {
   background-color: #202026;
-  width: 830px;
+  width: 730px;
   color: #fecb00;
   display: flex;
+  justify-content: space-between;
   padding-top: 10px;
 }
 .data-create {
   font-size: 24px;
   padding-top: 70px;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .github-label {
   max-width: 80px;
   padding-top: 5px;
-  padding-left: 500px;
+  transition: 0.3s;
+}
+.github-label:hover {
+  transform: scale(1.2);
+}
+
+.arrow-icon {
+  max-width: 70px;
+  padding-bottom: 15px;
+  opacity: 70%;
 }
 
 .rss-promote {
@@ -149,14 +300,10 @@ footer {
   line-height: 0.8em;
   text-align: center;
 }
-.click-word {
-  writing-mode: vertical-rl;
-  color: #fecb00;
-  font-size: 30px;
-  text-decoration: none;
+
+.click-promote {
+  font-size: 24px;
   font-weight: 700;
-  line-height: 0.8em;
-  text-align: center;
 }
 
 .direction-img {
