@@ -46,7 +46,7 @@ header {
 }
 
 .main-line {
-  height: 2px;
+  height: 4px;
   background-color: black;
 }
 
@@ -112,6 +112,14 @@ header {
   margin-top: 25px;
 }
 
+.first-project-box {
+  background-color: #fecb00;
+}
+
+.second-project-box {
+  background-color: #5a512c;
+}
+
 .img-link-project {
   max-width: 250px;
   transition: 1s;
@@ -120,7 +128,8 @@ header {
 
 .img-link-project:hover {
   transform: scale(1.2);
-  box-shadow: 2px 2px 20px 2px #fecb00;
+  box-shadow: 2px 2px 20px 2px #202026; 
+  border-s
 }
 
 .description-project {
@@ -141,17 +150,24 @@ aside {
   line-height: 145%;
 }
 
+.line-aside {
+  background-color: #fecb00;
+  height: 4px;    
+  opacity: 75%;
+  margin-top: 10px;  
+}
+
 .contacts-aside {
   margin: 650px 20px 0 30px;
 }
 
 .hard-skills-aside {
-  margin: 115px 20px 0 40px;
+  margin: 115px 0px 0 60px;
   font-size: 30px;
 }
 
 .soft-skills-aside {
-  margin: 50px 20px 0 40px;
+  margin: 50px 0px 0 60px;
   font-size: 30px;
 }
 
@@ -208,7 +224,7 @@ main {
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-right-radius: 25px; 
 }
 
 footer {
