@@ -1,5 +1,7 @@
 html {
   background-color: black;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -22,13 +24,20 @@ header {
   display: flex;
   background-color: #fecb00;
   color: #202026;
-  /* justify-content: space-around;   */
-  justify-content: flex-end
-  gap: 2000px;
+  justify-content: flex-end;
+  gap: 20px;
   list-style-type: none;
   text-transform: uppercase;
-  margin-top: 150px;
-  padding: 7px 0;
+  margin-top: 100px;
+  padding: 8px 0;
+  padding-right: 20px;
+  font-weight: 700;
+}
+
+.non-decoration-nav {
+  text-decoration: none;
+  color: black;
+  animation: move-line 2s ease infinite;
 }
 
 .name-and-job {
@@ -36,10 +45,11 @@ header {
   color: #202026;
   font-size: 24px;
   line-height: 30%;
-  padding: 5px 0;
+  padding: 20px 0;
   text-transform: uppercase;
   text-align: end;
   margin-top: 25px;
+  padding-right: 20px;
 }
 
 .name {
