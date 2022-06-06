@@ -5,35 +5,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta>
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
 <body>
-
-
-  <header>
-    <img src="img/young.jpg" alt="my photo" class="my-photo">
-    <nav>
-      <ul class="header-nav">
-        <li>About</li>
-        <li>Experience</li>
-        <li>Education</li>
-        <li>Languages</li>
-        <li>Code Example</li>
-      </ul>
-    </nav>
-    <div>
-      <h2>Junior Frontend Developer</h2>
-      <h2>Yaroslav Kalegin</h2>
+  <header class="header-flex">
+    <img src="img/young.jpg" alt="my photo" class="my-photo" id="up">
+    <div class="test">
+      <nav>
+        <ul class="header-nav">
+          <li><a href="#about" class="non-decoration-nav">About</a></li>
+          <li><a href="#education" class="non-decoration-nav">Education</a></li>
+          <li><a href="#languages" class="non-decoration-nav">Languages</a></li>
+          <li><a href="#code" class="non-decoration-nav">Code Example</a></li>
+          <li><a href="#projects" class="non-decoration-nav">Projects</a></li>
+        </ul>
+        <a href="#up"><img src="img/up.png" alt="up" class="up-link"></a>
+      </nav>
+      <div class="name-and-job">
+        <h2>Yaroslav Kalegin</h2>
+        <h2 class="name">Junior Front-end Developer</h2>
+      </div>
     </div>
   </header>
 
   <div class="flex-main-aside">
     <main class="main-align">
       <h1 class="hidden-title">Yaroslav Kalegin - Junior Frontend Developer</h1>
-      <section class="about-section">
+      <section class="about-section" id="about">
         <h3 class="main-title">About me</h3>
         <div class="main-line"></div>
         <p class="main-p-left-padding">
@@ -46,8 +49,8 @@
         </p>
       </section>
 
-      <section class="education-section">
-        <h3 class="main-title">Education</h3>
+      <section class="education-section" id="education">
+        <h3 class=" main-title">Education</h3>
         <div class="main-line"></div>
 
 
@@ -69,7 +72,7 @@
         </div>
       </section>
 
-      <section class="languages-section">
+      <section class="languages-section" id="languages">
         <h3 class="main-title">Languages</h3>
         <div class="main-line"></div>
         <ul>
@@ -79,13 +82,13 @@
         </ul>
       </section>
 
-      <section class="code-example-section">
+      <section class="code-example-section" id="code">
         <h3 class="main-title">Code Example</h3>
         <div class="main-line"></div>
 
         <div class="example-code-background">
+          <pre>
           <code class="code-opacity">
-          <pre>  
   const isLowerCase = (char) =>
     char.toLowerCase() === char;
   const swapCase = (char) =>
@@ -94,12 +97,12 @@
   String.prototype.toAlternatingCase = function() {
     return [...this].map(swapCase).join('');
       };
-          </pre>     
-          </code>
+    </code>
+  </pre>
         </div>
       </section>
 
-      <section class="projects-section">
+      <section class="projects-section" id="projects">
         <h3 class="main-title">Projects</h3>
         <div class="main-line"></div>
         <div class="projects-flex">

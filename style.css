@@ -1,5 +1,7 @@
 html {
   background-color: black;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,14 +17,76 @@ body {
 }
 
 header {
+  background-color: #202026;
+}
+
+.header-nav {
+  display: flex;
+  background-color: #fecb00;
+  color: #202026;
+  justify-content: flex-end;
+  gap: 20px;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-top: 100px;
+  padding: 8px 0;
+  padding-right: 20px;
+  font-weight: 700;
+}
+
+.non-decoration-nav {
+  text-decoration: none;
+  color: black;
+  animation: move-line 2s ease infinite;
+}
+
+.up-link {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  position: fixed;
+  opacity: 45%;
+  animation: pulsar 4s ease infinite;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.name-and-job {
+  background-color: #fecb00;
+  color: #202026;
+  font-size: 24px;
+  line-height: 30%;
+  padding: 20px 0;
+  text-transform: uppercase;
+  text-align: end;
+  margin-top: 25px;
+  padding-right: 20px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.header-flex {
   display: flex;
   background-color: black;
   color: white;
   background-color: #202026;
 }
 
-.header-nav {
-  display: flex;
+.test {
+  width: 100%;
 }
 
 .hidden-title {
@@ -121,7 +185,7 @@ header {
 }
 
 .second-project-box {
-  background-color: #fecb00;  
+  background-color: #fecb00;
   max-width: 250px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -130,13 +194,12 @@ header {
 .img-link-project {
   max-width: 250px;
   transition: 1s;
-  box-shadow: 0px 2px 20px 2px #fecb00;  
+  box-shadow: 0px 2px 20px 2px #fecb00;
 }
 
 .img-link-project:hover {
   transform: scale(1.2);
-  box-shadow: 2px 2px 20px 2px #202026; 
-  border-s
+  box-shadow: 2px 2px 20px 2px #202026;
 }
 
 .description-project {
@@ -160,17 +223,17 @@ aside {
   opacity: 95%;
   font-size: 24px;
   line-height: 145%;
-  position:relative;  
+  position: relative;
 }
 
 .line-aside {
   background-color: #fecb00;
-  height: 4px;    
+  height: 4px;
   opacity: 75%;
-  margin-top: 10px;  
+  margin-top: 10px;
 }
 
-.contacts-aside { 
+.contacts-aside {
   position: absolute;
   bottom: 50px;
   margin-left: 30px;
@@ -231,15 +294,11 @@ aside {
 
 .my-photo {
   width: 370px;
-  border-bottom-right-radius: 25px;
 }
 
 main {
   background-color: whitesmoke;
   border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  border-top-right-radius: 25px; 
 }
 
 footer {
@@ -290,6 +349,19 @@ footer {
   max-width: 70px;
   padding-bottom: 15px;
   opacity: 70%;
+  animation: pulse 3s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateX(-20px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
 }
 
 .rss-promote {
@@ -309,4 +381,3 @@ footer {
 .direction-img {
   width: 80px;
 }
-
