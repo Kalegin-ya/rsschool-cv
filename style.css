@@ -40,6 +40,27 @@ header {
   animation: move-line 2s ease infinite;
 }
 
+.up-link {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  position: fixed;
+  opacity: 45%;
+  animation: pulsar 4s ease infinite;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .name-and-job {
   background-color: #fecb00;
   color: #202026;
