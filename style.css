@@ -25,7 +25,7 @@ header {
   background-color: #fecb00;
   color: #202026;
   justify-content: flex-end;
-  gap: 20px;
+  gap: 10px;
   list-style-type: none;
   text-transform: uppercase;
   margin-top: 100px;
@@ -38,6 +38,12 @@ header {
   text-decoration: none;
   color: black;
   animation: move-line 2s ease infinite;
+  padding: 0 10px;
+}
+
+.non-decoration-nav:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
 }
 
 .up-link {
@@ -237,6 +243,7 @@ aside {
   position: absolute;
   bottom: 50px;
   margin-left: 30px;
+  font-size: 20px;
 }
 
 .hard-skills-aside {
