@@ -39,11 +39,13 @@ header {
   color: black;
   animation: move-line 2s ease infinite;
   padding: 0 10px;
+  transition: 1s;
 }
 
 .non-decoration-nav:hover {
   background-color: whitesmoke;
   border-radius: 20px;
+  margin-right: 10px;
 }
 
 .up-link {
@@ -252,7 +254,7 @@ aside {
 }
 
 .soft-skills-aside {
-  margin: 50px 0px 0 60px;
+  margin: 20px 0px 0 60px;
   font-size: 30px;
 }
 
