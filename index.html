@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Kalegin Yaroslav - Junior Front-end Developer</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="fav-icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav-icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav-icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav-icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav-icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav-icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav-icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav-icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav-icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="fav-icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav-icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav-icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav-icon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+  <header class="header-flex">
+    <img src="img/young.jpg" alt="my photo" class="my-photo" id="up">
+    <div class="test">
+      <nav>
+        <ul class="header-nav">
+          <li><a href="#about" class="non-decoration-nav">About</a></li>
+          <li>
+            <a href="#education" class="non-decoration-nav">Education</a>
+          </li>
+          <li>
+            <a href="#languages" class="non-decoration-nav">Languages</a>
+          </li>
+          <li><a href="#code" class="non-decoration-nav">Code Example</a></li>
+          <li><a href="#projects" class="non-decoration-nav">Projects</a></li>
+        </ul>
+        <a href="#up"><img src="img/up.png" alt="up" class="up-link"></a>
+      </nav>
+      <div class="name-and-job">
+        <h2>Yaroslav Kalegin</h2>
+        <h2 class="name">Junior Front-end Developer</h2>
+      </div>
+    </div>
+  </header>
+
+  <div class="flex-main-aside">
+    <main class="main-align">
+      <h1 class="hidden-title">
+        Yaroslav Kalegin - Junior Frontend Developer
+      </h1>
+      <section class="about-section" id="about">
+        <h3 class="main-title">About me</h3>
+        <div class="main-line"></div>
+        <p class="main-p-left-padding">
+          I have tried many professions in my life until I found this one.
+          After all, what could be better than a job in which you can never
+          say that you know everything. A job where there is always something
+          to learn is great. work will never get boring, because you will
+          always find something new, continuing to study..
+        </p>
+      </section>
+
+      <section class="education-section" id="education">
+        <h3 class="main-title">Education</h3>
+        <div class="main-line"></div>
+
+        <p class="main-p-left-padding-bold">National Aerospace University</p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">
+            (Metrology, certification and standardization)
+          </p>
+        </div>
+
+        <p class="main-p-left-padding-bold">
+          Seven-day introductory course by GoIT
+        </p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(HTML/CSS)</p>
+        </div>
+
+        <p class="main-p-left-padding-bold">
+          Basic course "Java syntax" by Mate Acadmy
+        </p>
+        <div class="compress-space-between">
+          <p class="education-skill-font">(Java, IntelliJ IDEA, Eclipse)</p>
+        </div>
+      </section>
+
+      <section class="languages-section" id="languages">
+        <h3 class="main-title">Languages</h3>
+        <div class="main-line"></div>
+        <ul>
+          <li><span class="lang-name">Ukrainian</span> - Intermediate</li>
+          <li><span class="lang-name">Russian</span> - Native</li>
+          <li>
+            <span class="lang-name">English</span> - Pre-Intermediate (B1 in
+            proccess...)
+          </li>
+        </ul>
+      </section>
+
+      <section class="code-example-section" id="code">
+        <h3 class="main-title">Code Example</h3>
+        <div class="main-line"></div>
+
+        <div class="example-code-background">
+          <pre>
+          <code class="code-opacity">
+  const isLowerCase = (char) =>
+    char.toLowerCase() === char;
+  const swapCase = (char) =>
+  isLowerCase(char) ? char.toUpperCase() :
+    char.toLowerCase();
+  String.prototype.toAlternatingCase = function() {
+    return [...this].map(swapCase).join('');
+      };
+    </code>
+  </pre>
+        </div>
+      </section>
+
+      <section class="projects-section" id="projects">
+        <h3 class="main-title">Projects</h3>
+        <div class="main-line"></div>
+        <div class="projects-flex">
+          <div class="first-project-box">
+            <div>
+              <a href="https://kalegin-ya.github.io/Resume-001/" target="_blank">
+                <img src="img/my-project-2.png" alt="1-st project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p class="info-about-project">
+                Compiled resume based on video lessons of the IT school of Go
+                IT.
+              </p>
+              <p class="tech-project">[HTML5, CSS3]</p>
+            </div>
+          </div>
+
+          <div class="second-project-box">
+            <div>
+              <a href="https://github.com/Kalegin-ya/rsschool-cv/blob/gh-pages/cv.md" target="_blank">
+                <img src="img/my-project-1.png" alt="2-nd project" class="img-link-project">
+              </a>
+            </div>
+            <div class="description-project">
+              <p class="info-about-project">
+                My first resume written with Markdown and GitHub.
+              </p>
+              <p class="tech-project">[Markdowm, GitHub]</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <section class="hard-skills-aside">
+        <h3 class="aside-title">Hard Skills</h3>
+
+        <div class="line-aside"></div>
+
+        <ul class="ul-style-aside">
+          <li>HTML 5</li>
+          <li>CSS3</li>
+          <li>Figma</li>
+          <li>Git, GitHub</li>
+          <li>Markdown</li>
+          <li>Jira</li>
+          <li>VS Code</li>
+          <li>Eclipse</li>
+          <li>IntelliJ IDEA</li>
+        </ul>
+      </section>
+
+      <section class="soft-skills-aside">
+        <h3 class="aside-title">Soft Skills</h3>
+
+        <div class="line-aside"></div>
+
+        <ul class="ul-style-aside">
+          <li>GTD</li>
+          <li>Teamwork</li>
+          <li>Agile</li>
+          <li>Scrum</li>
+        </ul>
+      </section>
+
+      <section class="contacts-aside">
+        <h3 class="aside-title">Contacts</h3>
+        <ul class="ul-style-contacts">
+          <li>
+            Phone:
+            <a href="tel:+380737373313" class="none-decoration-aside">
+              +38(073)737-33-13
+            </a>
+          </li>
+          <li>
+            Email:
+            <a href="mailto:kalegin.ya@gmail.com" class="none-decoration-aside">
+              kalegin.ya@gmail.com
+            </a>
+          </li>
+        </ul>
+
+        <div class="icon-aside">
+          <a href="https://t.me/kagein_ya" class="none-decoration-aside" target="_blank">
+            <img src="img/telegram.png" alt="https://t.me/kagein_ya" class="contact-icons">
+          </a>
+
+          <a href="http://surl.li/cdara" class="none-decoration-aside" target="_blank">
+            <img src="img/in.png" alt="http://surl.li/cdara" class="contact-icons">
+          </a>
+
+          <a href="https://discordapp.com/users/Yaroslav_1993#6813/" class="none-decoration-aside" target="_blank">
+            <img src="img/discord.png" alt="Yaroslav_1993#6813" class="contact-icons">
+          </a>
+
+          <a href="tel:+380737373313" class="none-decoration-aside"><img src="img/phone.png" alt="phone number"
+              class="contact-icons">
+          </a>
+
+          <a href="mailto:kalegin.ya@gmail.com" class="none-decoration-aside">
+            <img src="img/email.png" alt="kalegin.ya@gmail.com" class="contact-icons">
+          </a>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="left-side-footer">
+      <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rs-school-label" class="rss-label"></a>
+    </div>
+    <div class="right-side-footer">
+      <div class="rss-promote">
+        <span class="click-promote">Click</span>
+        <br>
+        and
+        <br>
+        Join to us!
+      </div>
+
+      <div>
+        <img src="img/arrow.png" alt="arrow to GitHub" class="arrow-icon">
+        <span>
+          <a href="https://github.com/Kalegin-ya">
+            <img src="img/github.png" alt="GitHub" class="github-label"></a>
+        </span>
+      </div>
+
+      <div class="data-create">&#169; Create in 2022.</div>
+    </div>
+  </footer>
+</body>
+
+</html>
